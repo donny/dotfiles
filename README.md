@@ -1,4 +1,6 @@
 dotfiles
 ========
 
-A set of very opinionated dotfiles for my own use
+A set of very opinionated dotfiles for my own use.
+
+Currently: screen, tmux.

@@ -1,0 +1,23 @@
+# Most of the configurations are taken from Sven Guckes' screenrc file:
+# http://www.guckes.net/Setup/screenrc
+
+# String escape characters:
+# http://www.gnu.org/software/screen/manual/screen.html#String-Escapes
+
+# Don't display the copyright page.
+startup_message off
+
+# Set the scrollback history.
+defscrollback 10000
+
+# Backtick command:
+# http://www.gnu.org/software/screen/manual/screen.html#Backtick
+# backtick 1 5 5 date
+
+# The difference between caption and hardstatus:
+# http://www.debian-administration.org/articles/560
+
+#hardstatus alwayslastline "%{= kg}[ %{w}%c %{r}%l %{g}] %{= kb}%-Lw%{= kr}%50L>(%{ky} %n*%f%t %{-})%{-}%+Lw%<"
+
+caption always "%{= kb}%-Lw%{= kr}%50L>(%{ky} %n*%f%t %{-})%{-}%+Lw%<"
+hardstatus alwayslastline "%{= kg}%{b}%H %{g}| %{m}%c %{g}| %{b}%d.%m.%Y %= %{r}Load: %l"
