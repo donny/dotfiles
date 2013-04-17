@@ -1,0 +1,9 @@
+[user]
+	name = Donny Kurniawan
+	email = donny.kurniawan@gmail.com
+[color]
+	ui = true
+[core]
+	editor = /usr/bin/vim
+	quotepath = false
+	excludesfile = ~/.gitignore
