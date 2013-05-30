@@ -7,7 +7,7 @@ export HISTFILESIZE=20000
 export HISTSIZE=20000
 
 # Set standard environment variables.
-export PATH=/Users/donny/unix/local/bin:/usr/local/bin:/usr/local/opt/ruby/bin:/usr/local/share/npm/bin:$PATH
+export PATH=/Users/donny/unix/local/bin:/usr/local/bin:/usr/local/opt/ruby/bin:/usr/local/share/npm/bin:/usr/local/share/python:$PATH
 export MANPATH=/Users/donny/unix/local/share/man:/usr/local/share/man/:$MANPATH
 
 # Set various programming language configuration.
